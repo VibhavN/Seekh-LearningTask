@@ -1,0 +1,23 @@
+* {
+    color: white;
+    background-color: black;
+}
+
+.card {
+    margin: auto;
+    background-color: black;
+}
+
+.card-story {
+    border: 1px solid white;
+    padding: 1rem;
+    margin: 1rem;
+    align-items: center;
+    width: 15rem;
+    justify-content: center;
+
+}
+
+.gb {
+    background-color: gray;
+}

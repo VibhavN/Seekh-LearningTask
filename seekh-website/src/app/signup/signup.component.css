@@ -1,0 +1,72 @@
+* {
+    color: white;
+}
+
+
+.navbar-nav {
+    right: 0px;
+    
+}
+
+.navbar {
+    height: 4rem;
+    background-color: black;
+}
+
+
+.orange {
+    background-color: #F96815;
+    
+}
+
+.google {
+    background-color: white;
+    color: black;
+}
+
+.fb {
+    background-color: rgb(57, 57, 255);
+    
+}
+
+.card {
+    margin: auto;
+    margin-top: 5rem;
+    padding: 2rem;
+    background-color: rgb(52, 51, 51);
+    width: max-content;
+    height: fit-content;
+}
+
+.nav-right {
+    float: right;
+}
+
+input[type="text"], textarea {
+
+    background-color : rgb(100, 95, 95); 
+  
+  }
+
+::placeholder {
+    color: white;
+    font-size: 14px;
+    font-family: monospace;
+}
+
+button {
+    font-size: 14px;
+    font-family: monospace;
+}
+
+
+
+.login {
+    border: 2px #F96815 solid;
+    background-color: black;
+}
+
+.icon {
+    margin: auto;
+    padding: 1rem;
+}
