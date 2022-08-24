@@ -1,0 +1,40 @@
+* {
+    color: white;
+    background-color: black;
+}
+
+.card {
+    margin: auto;
+    background-color: black;
+}
+
+.card-story {
+    border: 2px solid white;
+    padding: 0.2rem;
+    margin: 2rem;
+    width: 10.5em;
+    height: 7em;
+    
+
+}
+
+.btn-orange {
+    background-color: #F96815;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1rem;;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+.nav-link .active {
+    color: #F96815;
+}
+
