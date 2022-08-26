@@ -30,11 +30,26 @@ h4 {
     font-size: 1rem;;
 }
 
+.login {
+    border: 2px #F96815 solid;
+    background-color: black;
+}
+
 p {
     font-size: 0.9rem;
 }
 
-.nav-link .active {
-    color: #F96815;
+.hero-img {
+    margin: auto;
+    width: 90%;
+    height: auto;
 }
 
+.heroContent {
+    margin: auto;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

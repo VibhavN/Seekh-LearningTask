@@ -70,3 +70,9 @@ button {
     margin: auto;
     padding: 1rem;
 }
+
+.img {
+    max-width: 600px;
+    max-height: fit-content;
+    margin-right: 10rem;
+}

@@ -2,25 +2,26 @@
     
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img src="" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        <h2 class="navbar-brand">
+            <img src="assets/icons/Seekh.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
             SEEKH
-          </a>
+          </h2>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 float-right">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="float: right;">
             <input class="me-2" type="search" placeholder="Search" aria-label="Search">
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#">Courses</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">About</a>
+            <a class="nav-link" style="color: #F96815;" routerLink="/about">About</a>
           </li><li class="nav-item">
             <a class="nav-link x-5" aria-current="page" href="#">FAQ</a>
           </li>
-          <button class="btn btn-outline-success" href="#">Sign In</button>
+          <a routerLink="/signup"><button class="btn login" routerLink="/login">Sign In</button></a>
+          
         </ul>
       </div>
     </div>
@@ -29,10 +30,10 @@
   <div>
 
     <div class="card text-center">
-        <img src="/src/assets/pics/about-hero.png" alt="">
-        <div class="container">
+        <img class="hero-img" src="assets/pics/about-hero.png" alt="">
+        <h1 class="container heroContent">
             Our mission is to improve people's lives through learning.
-        </div>
+        </h1>
     </div>
 
 
@@ -82,17 +83,17 @@
 
         <div class="row">
             <div class="col-sm">
-                <img src="/src/assets/icons/Gradient-Icon.png" alt="">
+                <img src="assets/icons/Gradient-Icon.png" alt="">
                 <h4>Students to</h4>
                 <p>Get inspired, learn new skills, and make discoveries.</p>
             </div>
             <div class="col-sm">
-                <img src="/src/assets/icons/Gradient-Icon (1).png" alt="">
+                <img src="assets/icons/Gradient-Icon (1).png" alt="">
                 <h4>Instructors to</h4>
                 <p>Share expertise, earn money, and give back.</p>
             </div>
             <div class="col-sm">
-                <img src="/src/assets/icons/Gradient-Icon (2).png" alt="">
+                <img src="assets/icons/Gradient-Icon (2).png" alt="">
                 <h4>Employees to</h4>
                 <p>Be curious, make an impact, and live a full life.</p>
             </div>
@@ -107,13 +108,13 @@
       <div class="row">
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
           <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+            src="assets/icons/instructor_1.png"
             class="w-100 shadow-1-strong rounded mb-4"
             
           />
 
           <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+            src="assets/icons/2.png"
             class="w-100 shadow-1-strong rounded mb-4"
             
           />
@@ -121,13 +122,13 @@
 
         <div class="col-lg-4 mb-4 mb-lg-0">
           <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+            src="assets/icons/3.png"
             class="w-100 shadow-1-strong rounded mb-4"
             
           />
 
           <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+            src="assets/icons/4.png"
             class="w-100 shadow-1-strong rounded mb-4"
             
           />
@@ -135,13 +136,13 @@
 
         <div class="col-lg-4 mb-2 mb-lg-1">
           <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+            src="assets/icons/5.png"
             class="w-100 shadow-1-strong rounded mb-4"
             
           />
 
           <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+            src="assets/icons/6.png"
             class="w-100 shadow-1-strong rounded mb-4"
             
           />
@@ -193,7 +194,7 @@
     <!--Footer Section-->
 
     <!-- Footer -->
-<footer class="bg-dark text-center text-white">
+<footer class="bg-dark text-center text-white my-5">
   <!-- Grid container -->
   <div class="p-4">
 
@@ -204,7 +205,7 @@
 
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <img src="" alt="">
+          <img src="assets/icons/Seekh.png" alt="">
           <h5 class="text-uppercase">SEEKH</h5>
           <p>
             We are combining beautiful storytelling & beautiful minds to create a future for the entire country on India.
@@ -259,12 +260,12 @@
           <ul class="list-unstyled mb-0">
             <li>
               <a href="#!" class="text-white">
-                <img src="/src/assets/icons/AppStore.png" alt="">
+                <img src="assets/icons/AppStore.png" alt="">
               </a>
             </li>
             <li>
               <a href="#!" class="text-white">
-                <img src="/src/assets/icons/GooglePlay.png" alt="">
+                <img src="assets/icons/GooglePlay.png" alt="">
               </a>
             </li>
           </ul>
@@ -296,20 +297,20 @@
       <!-- Section: Social media -->
       <section class="mb-4">
         <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><img src="/src/assets/icons/fb_icon.png" alt=""></a>
+        <a class="btn btn-floating m-1" href="#!" role="button"
+          ><img src="assets/icons/fb_icon.png" alt=""></a>
 
         <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><img src="/src/assets/icons/twitter_icon.png" alt=""> </a>
+        <a class="btn btn-floating m-1" href="#!" role="button"
+          ><img src="assets/icons/twitter_icon.png" alt=""> </a>
 
         <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><img src="/src/assets/icons/instagram_icon.png" alt=""></a>
+        <a class="btn btn-floating m-1" href="#!" role="button"
+          ><img src="assets/icons/instagram_icon.png" alt=""></a>
 
         <!-- YouTube -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><img src="/src/assets/icons/youtube_icon.png" alt=""></a>
+        <a class="btn btn-floating m-1" href="#!" role="button"
+          ><img src="assets/icons/youtube_icon.png" alt=""></a>
 
       </section>
       <!-- Section: Social media -->

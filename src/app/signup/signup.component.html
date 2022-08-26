@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img src="image.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            <img src="assets/icons/Seekh.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
             SEEKH
           </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,23 +10,26 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-right ">
-          <li class="nav-item">
-            <a class="nav-link " href="#">Already have an account?</a>
+          <li class="nav-item" style="margin:auto">
+            Already have an account?
           </li>
-          <button class="btn login ">Login</button>
+          <li class="nav-item" style="margin:auto"> 
+            <a class="nav-link " routerLink="/login"><button class="btn login ">Login</button></a>
+          </li>
+          
         </ul>
         
       </div>
     </div>
   </nav>
 
-  <div class="card">
-    <div class="row">
+  <div>
+    <div class="row container">
         <div class="col-sm">
-            <img src="/seekh-website/src/assets/pics/sample.png" alt="">
+            <img class="img" src="assets/pics/sample.png" alt="">
         </div>
-        <div class="col-sm">
-            <form>
+        <div class="card col-sm">
+            <form >
                 <button class="btn google container">
                     <img class="icon" src="/seekh-website/src/assets/icons/icons8-google.svg" alt="">
                     SIGN UP WITH GOOGLE</button>
@@ -38,10 +41,11 @@
                 <br>
                 <hr>
                 <div class="mb-3">
-                  <input type="text" class="form-control container" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username">
+                  <input type="text" class="form-control container" formControlName="username" placeholder="Username">
+                
                 </div>
                 <div class="mb-3">
-                  <input type="text"  class="form-control container" id="exampleInputPassword1" placeholder="Password">
+                  <input type="text"  class="form-control container" formControlName="password" placeholder="Password">
                 </div>
                 <button class="btn orange container">CREATE ACCOUNT</button>
                 <br>
